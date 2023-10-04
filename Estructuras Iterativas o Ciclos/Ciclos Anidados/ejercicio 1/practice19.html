@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Algoritmo que muestre las tablas de multiplicar de los números del 1 al 10</h2>
+<body>
+    <script>
+    var i, j, resultado, max;
+
+    max=parseInt(prompt("ingrese la cantidad de tablas que desea multiplicar por tabla"));
+
+    for(i=1; i<=max; i++){
+
+        for(j=0; j<=10; j++){
+          resultado=i*j;
+          document.write(i+" * "+j+" = "+resultado+"<br><br>");
+        }
+
+    }
+    </script>
+</body>
+</html>

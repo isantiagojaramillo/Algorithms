@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+11
+valorCompra
+1
+0
+9
+descuento
+1
+0
+10
+valorFinal
+1
+0
+4
+1
+31
+'ingrese el valor de la compra'
+5
+1
+11
+valorCompra
+6
+1
+10
+valorFinal
+11
+valorCompra
+7
+0
+1
+21
+valorCompra >= 100000
+6
+2
+9
+descuento
+15
+valorCompra*0.1
+10
+valorFinal
+21
+valorCompra-descuento
+4
+1
+59
+'se aplico un descuento del 10 % equivalente a ', descuento
+13
+6
+2
+9
+descuento
+15
+valorCompra*0.5
+10
+valorFinal
+21
+valorCompra-descuento
+4
+1
+58
+'se aplico un descuento del 50% equivalente a ', descuento
+13
+4
+1
+39
+'el valor de su compra es ', valorFinal
+1

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Ejercicio 2: algoritmo que reciba como entrada el sueldo de una persona y sus horas extras trabajadas y luego 
+    imprima el Sueldo total de esta persona dado que cada hora extra vale $3000.</h2>
+<body>
+    <script>
+        var sueldoBase, cantHorasExtras, sueldoTotal, totalHorasExtras;
+        
+        sueldoBase=parseFloat(prompt("ingrese el sueldo base"));
+        document.write("sueldo base: "+sueldoBase+"<br>")
+        cantHorasExtras=parseFloat(prompt("ingrese cantidad de horas extras trabajadas"));
+        document.write("cantidad horas extras trabajadas: "+cantHorasExtras+"<br>");
+
+        totalHorasExtras=cantHorasExtras*3000;
+        sueldoTotal=sueldoBase+totalHorasExtras;
+
+        document.write("el sueldo total es: "+sueldoTotal)
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Ejercicio 1: Cree un algoritmo que lea dos números reales y determine cuál de ellos es el mayor, 
+cual el menor o Si los números son iguales</h2>
+<body>
+    <script>
+     var num1, num2;
+     num1=parseFloat(prompt("ingrese el valor numero 1"));
+     num2=parseFloat(prompt("ingrese el valor numero 2"));
+
+     if(num1>num2){
+         document.write(num1+" es mayor que "+num2);
+     }
+     else{
+         if(num2>num1){
+             document.write(num2+" es mayor que "+num1);
+         }
+         else{
+             document.write("los valores son iguales");
+         }
+     }
+    </script>
+</body>
+</html>

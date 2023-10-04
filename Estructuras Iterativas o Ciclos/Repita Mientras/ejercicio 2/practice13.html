@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>variante ejercicio 1 según sea caso): Algoritmo que basado en un código permita realizar operaciones matemáticas con 
+    2 números reales teniendo en cuenta lo siguiente:
+
+    |1|suma  
+    |2|resta        	
+    |3|multiplicación  
+    |4|division     
+    		
+El sistema deberá repetir las veces que el usuario quiera</h2>
+<body>
+    <script>
+    var num1, num2, opcion, suma, resta, mult, div;
+        var menu;
+        var preg;
+
+        do{
+
+            num1=parseInt(prompt("ingrese numero 1"));
+        num2=parseInt(prompt("ingrese numero 2"));
+
+        menu="menu\n\n";
+        menu+="1. sumar\n";
+        menu+="2. restar\n";
+        menu+="3. multiplicar\n";
+        menu+="4. dividir\n\n";
+        menu+="ingrese la opcion\n\n";
+        
+        opcion=parseInt(prompt(menu));
+
+        switch(opcion){
+            case 1: 
+            suma=num1+num2;
+            document.write("la suma de los numeros es: "+suma+"<br>");
+                break
+            case 2:
+                resta=num1-num2;
+                document.write("la resta de los numeros es: "+resta+"<br>");
+                break
+            case 3:
+                mult=num1*num2;
+                document.write("la multiplicacion de los numeros es: "+mult+"<br>");
+                break
+            case 4:
+                if(num2>0){
+                    div=num1/num2;
+                    document.write("la division de los numeros es: "+div+"<br>");
+                }else{
+                    document.write("el segundo numero debe ser mayor a 0");
+                }
+                
+                break 
+            default: document.write("la opcion no existe");            
+        }
+            preg=prompt("Si desea continuar ingrese si ó no para que el sistema termine");
+        }while(preg=="si")
+        
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>algoritmo que basado en la siguiente tabla permita leer un numero e imprima el nombre de la estacion correspondiente</h2>
+<br>
+<ul>
+    <li> |1| invierno</li>
+    <li> |2| verano</li>
+    <li> |3| otoño</li>
+    <li> |4| primavera</li>
+</ul>
+<hr>
+<body>
+    <script>
+     var opcion;
+
+     opcion=parseInt(prompt("ingrese una de las opciones"));
+     switch(opcion){
+         case 1: document.write("invierno");
+         break;
+         case 2: document.write("verano");
+         break;
+         case 3: document.write("otoño");
+         break;
+         case 4: document.write("primavera");
+         break;
+         default:document.write("la opcion no existe");
+     } 
+    </script>
+</body>
+</html>
